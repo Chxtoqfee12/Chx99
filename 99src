@@ -1768,14 +1768,6 @@ local function createCategoryUI(title, icon, itemsList, selectedList)
     })
 end
 
-createCategoryUI("เศษเหล็ก","box",_G.junkItems,"selectedJunkItems")
-createCategoryUI("เชื้อเพลิง","flame",_G.fuelItems,"selectedFuelItems")
-createCategoryUI("อาหาร","utensils",_G.foodItems,"selectedFoodItems")
-createCategoryUI("อาหารปรุงสุก","utensils",_G.foodcookItems,"selectedfoodcookItems")
-createCategoryUI("ยา","bandage",_G.medicalItems,"selectedMedicalItems")
-createCategoryUI("อุปกรณ์","sword",_G.equipmentItems,"selectedEquipmentItems")
-createCategoryUI("อื่นๆ","star",_G.specialItems,"selectedSpecialItems")
-
 
 
 -- ==============================
